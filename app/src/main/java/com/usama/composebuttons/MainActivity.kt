@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
                            Text(text = "Subscribe")
                        }
 
-                       Spacer(modifier = Modifier.padding(top = 10.dp))
+                       Spacer(modifier = Modifier.padding(top = 8.dp))
 
                        ElevatedButton(onClick = { /*TODO*/ }) {
                            Icon(
@@ -64,13 +64,19 @@ class MainActivity : ComponentActivity() {
                            Text(text = "Add to cart")
                        }
 
+                       Spacer(modifier = Modifier.padding(top = 8.dp))
+
                        FilledTonalButton(onClick = { /*TODO*/ }) {
                            Text(text = "Open in Browser")
                        }
 
+                       Spacer(modifier = Modifier.padding(top = 8.dp))
+
                        OutlinedButton(onClick = { /*TODO*/ }) {
                            Text(text = "Back")
                        }
+
+                       Spacer(modifier = Modifier.padding(top = 8.dp))
                        
                        TextButton(onClick = { /*TODO*/ }) {
                            Text(text = "Learn More")
